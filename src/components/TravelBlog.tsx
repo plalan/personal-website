@@ -2,38 +2,20 @@ const travelPosts = [
   {
     title: "Sun, Sand & Serenity",
     location: "Goa, India",
-    image: "/travel/goa.svg",
+    image: "/travel/goa.jpg",
     date: "Dec 2025",
     description:
       "Beach hopping from Palolem to Anjuna, fresh seafood, and sunsets that paint the sky in shades of gold. Goa never disappoints.",
     tags: ["Beach", "Food", "Sunsets"],
   },
   {
-    title: "Through the Backwaters",
-    location: "Kerala, India",
-    image: "/travel/kerala.svg",
+    title: "Beyond Bengaluru",
+    location: "Karnataka, India",
+    image: "/travel/karnataka.jpg",
     date: "Oct 2025",
     description:
-      "A houseboat journey through Alleppey&apos;s backwaters — lush green paddy fields, coconut palms, and the calm rhythm of water.",
-    tags: ["Nature", "Houseboat", "Culture"],
-  },
-  {
-    title: "Colors of the Desert",
-    location: "Rajasthan, India",
-    image: "/travel/rajasthan.svg",
-    date: "Mar 2025",
-    description:
-      "From the blue city of Jodhpur to the golden dunes of Jaisalmer. Forts, palaces, and endless hospitality.",
-    tags: ["Heritage", "Desert", "History"],
-  },
-  {
-    title: "Himalayan Escape",
-    location: "Himachal Pradesh, India",
-    image: "/travel/himachal.svg",
-    date: "Jun 2024",
-    description:
-      "Trekking through pine forests, chasing waterfalls in Tirthan Valley, and sipping chai with mountain views in Manali.",
-    tags: ["Mountains", "Trekking", "Peace"],
+      "From the ruins of Hampi to the misty hills of Coorg — Karnataka is a treasure trove of history, coffee plantations, and stunning waterfalls.",
+    tags: ["Heritage", "Nature", "Coffee"],
   },
   {
     title: "Ghats at Dawn",
@@ -68,7 +50,7 @@ export default function TravelBlog() {
           exploring India&apos;s incredible landscapes and cultures.
         </p>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 gap-6">
           {travelPosts.map((post, i) => (
             <article
               key={i}
