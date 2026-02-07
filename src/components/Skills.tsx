@@ -60,7 +60,7 @@ export default function Skills() {
           {skillCategories.map((cat) => (
             <div
               key={cat.title}
-              className="bg-[#111] border border-[#1a1a1a] rounded-2xl p-6 hover:border-[#00d4aa]/30 transition-all duration-300 glow"
+              className="bg-[#111] border border-[#1a1a1a] rounded-2xl p-6 hover:border-[#3b82f6]/30 transition-all duration-300 glow"
             >
               <div className="flex items-center gap-3 mb-5">
                 <span className="text-2xl">{cat.icon}</span>
@@ -70,7 +70,7 @@ export default function Skills() {
                 {cat.skills.map((skill) => (
                   <span
                     key={skill}
-                    className="text-sm px-3 py-1.5 rounded-lg bg-[#1a1a1a] text-[#ccc] border border-[#222] hover:border-[#00d4aa]/40 hover:text-white transition-colors"
+                    className="text-sm px-3 py-1.5 rounded-lg bg-[#1a1a1a] text-[#ccc] border border-[#222] hover:border-[#3b82f6]/40 hover:text-white transition-colors"
                   >
                     {skill}
                   </span>

@@ -51,7 +51,7 @@ export default function Achievements() {
           {achievements.map((item, i) => (
             <div
               key={i}
-              className="bg-[#111] border border-[#1a1a1a] rounded-2xl p-6 hover:border-[#00d4aa]/30 transition-all duration-300 glow"
+              className="bg-[#111] border border-[#1a1a1a] rounded-2xl p-6 hover:border-[#3b82f6]/30 transition-all duration-300 glow"
             >
               <div className="flex items-start gap-4">
                 <span className="text-3xl">{item.icon}</span>
@@ -59,7 +59,7 @@ export default function Achievements() {
                   <h3 className="font-semibold text-white mb-1">
                     {item.title}
                   </h3>
-                  <p className="text-xs text-[#00d4aa]/70 mb-2">{item.org}</p>
+                  <p className="text-xs text-[#3b82f6]/70 mb-2">{item.org}</p>
                   <p className="text-sm text-[#888]">{item.description}</p>
                 </div>
               </div>
@@ -76,7 +76,7 @@ export default function Achievements() {
             {companies.map((company) => (
               <span
                 key={company}
-                className="px-5 py-2 rounded-full border border-[#1a1a1a] text-sm text-[#888] hover:border-[#00d4aa]/30 hover:text-white transition-colors"
+                className="px-5 py-2 rounded-full border border-[#1a1a1a] text-sm text-[#888] hover:border-[#3b82f6]/30 hover:text-white transition-colors"
               >
                 {company}
               </span>

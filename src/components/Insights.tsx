@@ -35,9 +35,9 @@ export default function Insights() {
           {insights.map((post, i) => (
             <article
               key={i}
-              className="bg-[#111] border border-[#1a1a1a] rounded-2xl p-6 flex flex-col hover:border-[#00d4aa]/30 transition-all duration-300 glow"
+              className="bg-[#111] border border-[#1a1a1a] rounded-2xl p-6 flex flex-col hover:border-[#3b82f6]/30 transition-all duration-300 glow"
             >
-              <div className="text-xs font-mono text-[#00d4aa] mb-3">
+              <div className="text-xs font-mono text-[#3b82f6] mb-3">
                 {post.date}
               </div>
               <h3 className="text-lg font-semibold mb-3 leading-snug">

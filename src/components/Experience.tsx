@@ -62,20 +62,20 @@ export default function Experience() {
           {experiences.map((exp, i) => (
             <div key={i} className="relative">
               {/* Timeline dot */}
-              <div className="absolute -left-12 top-2 w-10 h-10 rounded-full bg-[#111] border-2 border-[#00d4aa] flex items-center justify-center">
-                <div className="w-3 h-3 rounded-full bg-[#00d4aa]" />
+              <div className="absolute -left-12 top-2 w-10 h-10 rounded-full bg-[#111] border-2 border-[#3b82f6] flex items-center justify-center">
+                <div className="w-3 h-3 rounded-full bg-[#3b82f6]" />
               </div>
 
-              <div className="bg-[#111] border border-[#1a1a1a] rounded-2xl p-6 hover:border-[#00d4aa]/30 transition-all duration-300 glow">
+              <div className="bg-[#111] border border-[#1a1a1a] rounded-2xl p-6 hover:border-[#3b82f6]/30 transition-all duration-300 glow">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
                   <h3 className="text-lg font-semibold text-white">
                     {exp.title}
                   </h3>
-                  <span className="text-xs font-mono text-[#00d4aa]">
+                  <span className="text-xs font-mono text-[#3b82f6]">
                     {exp.period}
                   </span>
                 </div>
-                <p className="text-sm text-[#00d4aa]/70 mb-3">{exp.company}</p>
+                <p className="text-sm text-[#3b82f6]/70 mb-3">{exp.company}</p>
                 <p className="text-sm text-[#888] leading-relaxed mb-4">
                   {exp.description}
                 </p>
@@ -83,7 +83,7 @@ export default function Experience() {
                   {exp.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="text-xs px-3 py-1 rounded-full bg-[#00d4aa]/10 text-[#00d4aa] border border-[#00d4aa]/20"
+                      className="text-xs px-3 py-1 rounded-full bg-[#3b82f6]/10 text-[#3b82f6] border border-[#3b82f6]/20"
                     >
                       {tag}
                     </span>
