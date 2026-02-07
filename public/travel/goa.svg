@@ -1,0 +1,29 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" width="800" height="400">
+  <!-- Dark gradient background -->
+  <defs>
+    <linearGradient id="goa-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#111;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="400" fill="url(#goa-bg)"/>
+  
+  <!-- Sun -->
+  <circle cx="150" cy="100" r="50" fill="#3b82f6" opacity="0.8"/>
+  <circle cx="150" cy="100" r="45" fill="#60a5fa"/>
+  
+  <!-- Sun rays -->
+  <line x1="150" y1="20" x2="150" y2="0" stroke="#60a5fa" stroke-width="3" stroke-linecap="round"/>
+  <line x1="150" y1="180" x2="150" y2="200" stroke="#60a5fa" stroke-width="3" stroke-linecap="round"/>
+  <line x1="70" y1="100" x2="50" y2="100" stroke="#60a5fa" stroke-width="3" stroke-linecap="round"/>
+  <line x1="230" y1="100" x2="250" y2="100" stroke="#60a5fa" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Waves -->
+  <path d="M 300 220 Q 350 200 400 220 T 500 220" stroke="#60a5fa" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 300 260 Q 350 240 400 260 T 500 260" stroke="#3b82f6" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 300 300 Q 350 280 400 300 T 500 300" stroke="#60a5fa" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Text -->
+  <text x="400" y="370" font-size="48" font-weight="bold" text-anchor="middle" fill="#60a5fa" font-family="Arial, sans-serif">Goa</text>
+</svg>

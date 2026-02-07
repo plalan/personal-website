@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 import Insights from "@/components/Insights";
+import TravelBlog from "@/components/TravelBlog";
 import Achievements from "@/components/Achievements";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -18,6 +19,7 @@ export default function Home() {
         <Experience />
         <Skills />
         <Insights />
+        <TravelBlog />
         <Achievements />
         <Contact />
       </main>
