@@ -38,7 +38,7 @@ const travelPosts = [
   {
     title: "Ghats at Dawn",
     location: "Varanasi, India",
-    image: "/travel/varanasi.svg",
+    image: "/travel/varanasi.jpg",
     date: "Jan 2024",
     description:
       "Witnessing the Ganga Aarti at Dashashwamedh Ghat — an experience that stays with you. The spiritual heart of India.",
@@ -47,7 +47,7 @@ const travelPosts = [
   {
     title: "The Last Frontier",
     location: "Ladakh, India",
-    image: "/travel/ladakh.svg",
+    image: "/travel/ladakh.jpg",
     date: "Aug 2023",
     description:
       "Riding through Khardung La at 18,380 ft, camping by Pangong Lake, and finding peace in the vast emptiness of the Himalayas.",
