@@ -48,6 +48,16 @@ export default function TravelBlog() {
         <p className="text-[#888] mb-12 max-w-2xl">
           When I&apos;m not securing enterprise data, you&apos;ll find me
           exploring India&apos;s incredible landscapes and cultures.
+          For the full photo gallery and detailed stories, visit{" "}
+          <a
+            href="https://compasswithchai.lalanprasad.in"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#3b82f6] hover:underline font-medium"
+          >
+            CompassWithChai
+          </a>
+          .
         </p>
 
         <div className="grid md:grid-cols-2 gap-6">
