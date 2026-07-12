@@ -4,8 +4,8 @@ const experiences = [
     company: "Cohesity",
     period: "Jan 2026 - Present",
     description:
-      "Driving data security solutions for enterprise and public sector clients. Leveraging AI-powered threat detection and zero-trust data protection capabilities.",
-    tags: ["AI Data Security", "Zero Trust", "Hybrid Cloud"],
+      "Leading cyber resilience and identity security for the region — the intersection of data protection, backup, and identity threat detection & recovery. Positioning AI-driven anomaly detection, immutable backups, clean-room recovery, and Active Directory forest recovery (with Semperis) against Rubrik, Veeam and legacy Veritas NetBackup. Keynote speaker on cyber resilience as the foundation of AI-powered business transformation (AI Innovation Summit, Cohesity Catalyst).",
+    tags: ["Cyber Resilience", "Identity Security", "Data Protection", "AD Forest Recovery"],
   },
   {
     title: "Senior Sales Engineer - Public Sector",
